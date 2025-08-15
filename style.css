@@ -1,0 +1,549 @@
+* {
+  margin: 0;
+}
+
+.header {
+  width: 100%;
+  height: 44px;
+  background-color: rgb(246, 241, 241);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+.appleimg {
+  margin: 0px;
+  cursor: pointer;
+}
+.buttonmac {
+  cursor: pointer;
+  background: transparent;
+  border: none;
+}
+.Nextheader {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 52px;
+  display: flex;
+  justify-content: center;
+  background-color: white;
+}
+.Globalfund {
+  width: 675px;
+  height: 20px;
+  font-size: 15px;
+}
+.hero {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 2.7;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+}
+.herocontrol {
+  position: absolute;
+  height: 100%;
+  z-index: -1;
+}
+.frame1 {
+  display: flex;
+  flex-direction: column;
+  background-color: wheat;
+  width: 600px;
+  justify-content: center;
+}
+.inframe1 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+}
+.inframe2 {
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  gap: 20px;
+}
+.buttonL {
+  background-color: rgba(0, 113, 227, 1);
+  border-radius: 50px;
+  color: white;
+  width: 123px;
+  height: 44px;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+}
+.buttonB {
+  width: 68px;
+  height: 44px;
+  border-radius: 50px;
+  border-color: rgba(0, 113, 227, 1);
+  color: rgba(0, 113, 227, 1);
+  background: transparent;
+  cursor: pointer;
+}
+.giftdiv {
+  display: flex;
+  justify-content: center;
+  width: 405px;
+  height: 164px;
+  color: white;
+  margin-bottom: 50px;
+  flex-direction: column;
+}
+.giftdiv2 {
+  display: flex;
+  justify-content: center;
+  color: black;
+  align-items: center;
+  height: 104px;
+  width: 405px;
+  flex-direction: column;
+}
+.giftdiv3 {
+  display: flex;
+  justify-content: center;
+  width: 405px;
+  height: 64px;
+
+  align-items: end;
+}
+.buttonGift {
+  width: 114px;
+  height: 44px;
+  border-radius: 50px;
+  background-color: rgba(0, 113, 227, 1);
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+.sixph {
+  position: absolute;
+  height: 100%;
+  z-index: -1;
+}
+.hero1 {
+  width: 100vw;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.p1s {
+  width: 49%;
+  display: flex;
+  flex-direction: column;
+  aspect-ratio: 1.6;
+  justify-content: space-between;
+
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+}
+.p1d {
+  width: 430px;
+  height: 120px;
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.p2s {
+  width: 49%;
+  display: flex;
+  aspect-ratio: 1.6;
+  justify-content: center;
+  position: relative;
+  align-items: end;
+  margin: 0;
+}
+.p2d {
+  width: 380px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 30px;
+}
+.watchs {
+  width: 49%;
+  display: flex;
+  aspect-ratio: 1.6;
+  justify-content: center;
+  position: relative;
+}
+.watchd {
+  width: 322px;
+  height: 146px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 40px;
+}
+.watchd1 {
+  width: 152px;
+  height: 39px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.macd {
+  width: 370px;
+  justify-content: start;
+  display: flex;
+
+  flex-direction: column;
+  align-items: center;
+}
+.macd1 {
+  width: 370px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.traded {
+  width: 322px;
+  height: 146px;
+
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 0;
+}
+.traded1 {
+  width: 322px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  gap: 10px;
+}
+.tradeh1 {
+  width: 127px;
+  height: 39px;
+  align-items: center;
+  margin-top: 20px;
+  font-size: 32px;
+}
+.cardd {
+  width: 322px;
+  height: 149px;
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 0;
+}
+.cardd1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.scrolls {
+  width: 100vw;
+  height: 668px;
+  display: flex;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  align-items: center;
+  gap: 10px;
+  position: relative;
+}
+.scrolls1 {
+  width: 1250px;
+  height: 668px;
+  position: relative;
+  flex-shrink: 0;
+}
+.imgs {
+  position: absolute;
+  z-index: -1;
+  height: 100%;
+  width: 100%;
+}
+.flymed {
+  display: flex;
+  height: 44px;
+
+  margin-bottom: 20px;
+  margin-left: 50px;
+  justify-content: start;
+  align-content: center;
+  gap: 20px;
+}
+.flymed1 {
+  display: flex;
+  width: 133px;
+  height: 44px;
+
+  margin-bottom: 20px;
+}
+.flymebutt {
+  width: 133px;
+  height: 44px;
+  display: flex;
+  border-radius: 50px;
+  background-color: white;
+  border: none;
+  cursor: pointer;
+  justify-content: center;
+  align-items: center;
+}
+.hero2 {
+  width: 100vw;
+  height: 292px;
+  display: flex;
+  overflow: scroll;
+  gap: 10px;
+  margin-top: 10px;
+}
+.herod {
+  width: 417px;
+  height: 236px;
+  position: relative;
+  display: flex;
+  flex-shrink: 0;
+  font-size: 50px;
+  align-items: end;
+}
+
+.hero2img {
+  position: absolute;
+  z-index: -1;
+  height: 100%;
+  width: 100%;
+}
+.fintessd {
+  margin-bottom: 40px;
+  margin-left: 40px;
+  width: 200px;
+  height: 18px;
+}
+.nbad {
+  width: 170px;
+  height: 18px;
+  margin-left: 20px;
+  margin-bottom: 30px;
+}
+.kimd {
+  width: 170px;
+  height: 18px;
+  margin-left: 20px;
+  margin-bottom: 30px;
+}
+
+.macd1s {
+  font-size: 36px;
+}
+.nbadh {
+  font-size: 14px;
+  color: white;
+}
+.rnbd {
+  margin-left: 100px;
+}
+
+.justify {
+  align-items: center;
+  justify-content: center;
+}
+.inframe1h {
+  font-size: 52px;
+  margin: 0;
+}
+.inframe1p {
+  font-size: 24px;
+}
+.flymep {
+  font-size: 17px;
+  color: white;
+}
+.buttond {
+  width: 199px;
+}
+.none {
+  display: none;
+}
+
+@media only screen and (max-width: 800px) {
+  .buttonmac {
+    display: none;
+  }
+  .header {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+  }
+  .hero {
+    aspect-ratio: 1.4;
+    overflow: hidden;
+  }
+  .imgs {
+    width: 800px;
+    height: 650px;
+    object-fit: fill;
+  }
+  .scrolls1 {
+    width: 800px;
+    height: 650px;
+  }
+  .p1d p {
+    font-size: 14px;
+  }
+  .p1d {
+    margin-top: 0;
+  }
+  .p2d p {
+    font-size: 14px;
+  }
+  .p2d h1 {
+    font-size: 25px;
+    margin-left: 15px;
+  }
+  .watchd p {
+    font-size: 14px;
+  }
+  .watchd h1 {
+    font-size: 25px;
+  }
+
+  .buttonB {
+    font-size: 10px;
+    width: 50px;
+  }
+  .buttonL {
+    font-size: 12px;
+    width: 90px;
+  }
+  .macd p {
+    font-size: 14px;
+  }
+  .macd h1 {
+    font-size: 25px;
+  }
+  .macd {
+    margin-top: 20px;
+  }
+  .traded p {
+    font-size: 14px;
+  }
+  .traded h1 {
+    font-size: 25px;
+  }
+  .cardd p {
+    font-size: 14px;
+  }
+  .cardd h1 {
+    font-size: 25px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .buttonmac {
+    display: none;
+  }
+  .header {
+    display: flex;
+    justify-content: space-between;
+    gap: 0 20px;
+  }
+
+  .hero {
+    aspect-ratio: 1;
+  }
+  .imgs {
+    width: 480px;
+    height: 650px;
+    object-fit: fill;
+  }
+  .scrolls1 {
+    width: 480px;
+    height: 650px;
+  }
+  .p1s p {
+    font-size: 15px;
+  }
+  .p2s p {
+    font-size: 15px;
+  }
+  .p2s h1 {
+    font-size: 22px;
+  }
+  .watchs h1 {
+    font-size: 22px;
+  }
+  .macd1 h1 {
+    font-size: 22px;
+  }
+  .buttonB {
+    font-size: 12px;
+    width: 50px;
+  }
+  .buttonL {
+    font-size: 12px;
+    width: 100px;
+  }
+  .nbadh {
+    color: black;
+  }
+
+  .watchs {
+    width: 100%;
+  }
+  .p1s {
+    width: 100%;
+  }
+  .p2s {
+    width: 100%;
+  }
+  .heroend {
+    align-items: end;
+  }
+  .hero2img {
+    position: static;
+    height: 100%;
+    width: 100%;
+  }
+  .herod {
+    align-items: normal;
+    flex-direction: column;
+  }
+  .hero {
+    overflow: hidden;
+  }
+  .inframe1h {
+    font-size: 20px;
+  }
+  .inframe1p {
+    font-size: 20px;
+  }
+  .scrolls1 {
+    overflow: hidden;
+    width: 100%;
+  }
+  .flymebutt {
+    font-size: 10px;
+  }
+  .flymed1 {
+    width: 80px;
+  }
+
+  .flymep {
+    font-size: 12 px;
+  }
+  .justify {
+    align-items: start;
+    justify-content: start;
+  }
+  .none {
+    display: grid;
+  }
+}
